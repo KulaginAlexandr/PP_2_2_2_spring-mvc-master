@@ -19,7 +19,13 @@ public class CarDaoImp implements CarDao {
     }
 
     @Override
-    public List<Car> getCarList(int count) {
-        return carList.subList(0, count < 0 ? 0 : count > carList.size() ? carList.size() : count);
+    public List<Car> getCarList(String count) {
+        int value;
+        try {
+            value = Integer.parseInt(count);
+        } catch (Exception e) {
+            value = 5;
+        }
+        return carList.stream().limit(value).toList();
     }
 }

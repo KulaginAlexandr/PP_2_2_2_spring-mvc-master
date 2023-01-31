@@ -19,14 +19,7 @@ public class CarsController {
     }
 
     @GetMapping(value = "/cars")
-    public String getCars(@RequestParam(value = "count", defaultValue = "5") String value,
-                          Model model) {
-        int count;
-        try {
-            count = Integer.parseInt(value);
-        } catch (Exception e) {
-            count = 5;
-        }
+    public String getCars(@RequestParam(value = "count", defaultValue = "5") String count, Model model) {
         model.addAttribute("cars", carService.getCarList(count));
         return "cars";
     }

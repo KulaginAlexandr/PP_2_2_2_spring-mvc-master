@@ -9,7 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b688bae8-0298-4591-a836-a5e3d859d2ed" name="Changes" comment="" />
+    <list default="true" id="b688bae8-0298-4591-a836-a5e3d859d2ed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/CarsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/CarsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/CarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/CarDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/CarDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/CarDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/CarServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/CarServiceImp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +29,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -46,6 +56,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2L6DIG6MAX7hrIvfzsZGvy2OQf0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -63,6 +74,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "c5611d5c8c9f9e897d6bf480c0e77655",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -254,7 +266,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675182561678</updated>
-      <workItem from="1675182565686" duration="15506000" />
+      <workItem from="1675182565686" duration="15605000" />
+      <workItem from="1675204847486" duration="756000" />
     </task>
     <servers />
   </component>
