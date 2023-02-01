@@ -9,10 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b688bae8-0298-4591-a836-a5e3d859d2ed" name="Changes" comment="Commit 1&#10;убрать бизнеслогику из контроллера&#10;getCarList переделай через стрим апи">
+    <list default="true" id="b688bae8-0298-4591-a836-a5e3d859d2ed" name="Changes" comment="Commit 1&#10;Прощай DAO(">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/CarDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/CarDaoImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/CarsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/CarsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/CarService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/service/CarServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/CarServiceImp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -265,7 +265,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675182561678</updated>
       <workItem from="1675182565686" duration="15605000" />
-      <workItem from="1675204847486" duration="3183000" />
+      <workItem from="1675204847486" duration="4062000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 1&#10;убрать бизнеслогику из контроллера&#10;getCarList переделай через стрим апи">
       <created>1675206784692</created>
@@ -274,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675206784692</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit 1&#10;Прощай DAO(">
+      <created>1675245746965</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675245746965</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +289,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit 1&#10;убрать бизнеслогику из контроллера&#10;getCarList переделай через стрим апи" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 1&#10;убрать бизнеслогику из контроллера&#10;getCarList переделай через стрим апи" />
+    <MESSAGE value="Commit 1&#10;Прощай DAO(" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 1&#10;Прощай DAO(" />
   </component>
 </project>

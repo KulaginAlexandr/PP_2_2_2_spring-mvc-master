@@ -21,13 +21,7 @@ public class CarServiceImp implements CarService {
     }
 
     @Override
-    public List<Car> getCarList(String count) {
-        int value;
-        try {
-            value = Integer.parseInt(count);
-        } catch (Exception e) {
-            value = 5;
-        }
-        return carList.stream().limit(value).toList();
+    public List<Car> getCarList(Integer count) {
+        return carList.stream().limit(count).toList();
     }
 }
